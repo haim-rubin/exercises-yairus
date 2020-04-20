@@ -1,0 +1,46 @@
+body {
+    background-color: #a3d5d3;
+  }
+
+  span{
+    display:block;
+  }
+
+  span.error{
+     color:red;
+  }
+
+  div.error{
+    background: red;
+  }
+
+  .error:hover{
+    background:green;
+  }
+
+  .error:focus{
+   /* background: yellow;*/
+  }
+
+  a{
+    text-decoration: none;
+    display:block;
+  }
+
+  input{outline:none}
+  /* input[type=text]{
+    border:2px dashed green;
+  }
+   */
+  input[type=number]{
+    border:2px dashed blue;
+    font-family: monospace;
+   font-weight: bold;
+  }
+
+  input[type=text]:focus{
+    /*background:lightblue;*/
+  }
+  input.error{background:red}
+
+  .david{border: 1px solid blue;}
